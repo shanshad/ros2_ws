@@ -1,0 +1,42 @@
+running egg_info
+writing ../../build/mypypkg/mypypkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/mypypkg/mypypkg.egg-info/dependency_links.txt
+writing entry points to ../../build/mypypkg/mypypkg.egg-info/entry_points.txt
+writing requirements to ../../build/mypypkg/mypypkg.egg-info/requires.txt
+writing top-level names to ../../build/mypypkg/mypypkg.egg-info/top_level.txt
+reading manifest file '../../build/mypypkg/mypypkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/mypypkg/mypypkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying mypypkg/camerasubscriber.py -> /home/shan/ros2_ws/build/mypypkg/build/lib/mypypkg
+copying mypypkg/boolnode.py -> /home/shan/ros2_ws/build/mypypkg/build/lib/mypypkg
+running install
+running install_lib
+copying /home/shan/ros2_ws/build/mypypkg/build/lib/mypypkg/camerasubscriber.py -> /home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages/mypypkg
+copying /home/shan/ros2_ws/build/mypypkg/build/lib/mypypkg/boolnode.py -> /home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages/mypypkg
+byte-compiling /home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages/mypypkg/camerasubscriber.py to camerasubscriber.cpython-310.pyc
+byte-compiling /home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages/mypypkg/boolnode.py to boolnode.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages/mypypkg-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/mypypkg/mypypkg.egg-info to /home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages/mypypkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing boolnode script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+Installing cameranode script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+Installing dpclient script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+Installing dpserver script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+Installing hpub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+Installing hsub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+Installing mitclient script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+Installing mtiserver script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+Installing paramexnode script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+Installing ppub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+Installing psub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+Installing testclient script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+Installing testexec script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+Installing testpub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+Installing testserver script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+Installing testsub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+Installing vectorpub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+Installing vectorsub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+writing list of installed files to '/home/shan/ros2_ws/build/mypypkg/install.log'

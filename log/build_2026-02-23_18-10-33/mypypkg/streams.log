@@ -1,0 +1,37 @@
+[1.316s] Invoking command in '/home/shan/ros2_ws/src/mypypkg': PYTHONPATH=/home/shan/ros2_ws/build/mypypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mypypkg build --build-base /home/shan/ros2_ws/build/mypypkg/build install --record /home/shan/ros2_ws/build/mypypkg/install.log --single-version-externally-managed install_data
+[1.845s] running egg_info
+[1.846s] writing ../../build/mypypkg/mypypkg.egg-info/PKG-INFO
+[1.847s] writing dependency_links to ../../build/mypypkg/mypypkg.egg-info/dependency_links.txt
+[1.847s] writing entry points to ../../build/mypypkg/mypypkg.egg-info/entry_points.txt
+[1.848s] writing requirements to ../../build/mypypkg/mypypkg.egg-info/requires.txt
+[1.848s] writing top-level names to ../../build/mypypkg/mypypkg.egg-info/top_level.txt
+[1.852s] reading manifest file '../../build/mypypkg/mypypkg.egg-info/SOURCES.txt'
+[1.854s] writing manifest file '../../build/mypypkg/mypypkg.egg-info/SOURCES.txt'
+[1.855s] running build
+[1.855s] running build_py
+[1.855s] copying mypypkg/psub.py -> /home/shan/ros2_ws/build/mypypkg/build/lib/mypypkg
+[1.856s] copying mypypkg/ppub.py -> /home/shan/ros2_ws/build/mypypkg/build/lib/mypypkg
+[1.857s] running install
+[1.858s] running install_lib
+[1.859s] copying /home/shan/ros2_ws/build/mypypkg/build/lib/mypypkg/psub.py -> /home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages/mypypkg
+[1.860s] copying /home/shan/ros2_ws/build/mypypkg/build/lib/mypypkg/ppub.py -> /home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages/mypypkg
+[1.862s] byte-compiling /home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages/mypypkg/psub.py to psub.cpython-310.pyc
+[1.863s] byte-compiling /home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages/mypypkg/ppub.py to ppub.cpython-310.pyc
+[1.864s] running install_data
+[1.864s] running install_egg_info
+[1.868s] removing '/home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages/mypypkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.868s] Copying ../../build/mypypkg/mypypkg.egg-info to /home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages/mypypkg-0.0.0-py3.10.egg-info
+[1.870s] running install_scripts
+[1.900s] Installing hpub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[1.901s] Installing hsub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[1.901s] Installing ppub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[1.901s] Installing psub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[1.901s] Installing testclient script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[1.902s] Installing testexec script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[1.902s] Installing testpub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[1.902s] Installing testserver script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[1.902s] Installing testsub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[1.902s] Installing vectorpub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[1.903s] Installing vectorsub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[1.903s] writing list of installed files to '/home/shan/ros2_ws/build/mypypkg/install.log'
+[1.941s] Invoked command in '/home/shan/ros2_ws/src/mypypkg' returned '0': PYTHONPATH=/home/shan/ros2_ws/build/mypypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mypypkg build --build-base /home/shan/ros2_ws/build/mypypkg/build install --record /home/shan/ros2_ws/build/mypypkg/install.log --single-version-externally-managed install_data

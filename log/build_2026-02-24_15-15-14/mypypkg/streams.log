@@ -1,0 +1,40 @@
+[1.416s] Invoking command in '/home/shan/ros2_ws/src/mypypkg': PYTHONPATH=/home/shan/ros2_ws/build/mypypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mypypkg build --build-base /home/shan/ros2_ws/build/mypypkg/build install --record /home/shan/ros2_ws/build/mypypkg/install.log --single-version-externally-managed install_data
+[1.963s] running egg_info
+[1.965s] writing ../../build/mypypkg/mypypkg.egg-info/PKG-INFO
+[1.965s] writing dependency_links to ../../build/mypypkg/mypypkg.egg-info/dependency_links.txt
+[1.966s] writing entry points to ../../build/mypypkg/mypypkg.egg-info/entry_points.txt
+[1.966s] writing requirements to ../../build/mypypkg/mypypkg.egg-info/requires.txt
+[1.967s] writing top-level names to ../../build/mypypkg/mypypkg.egg-info/top_level.txt
+[1.971s] reading manifest file '../../build/mypypkg/mypypkg.egg-info/SOURCES.txt'
+[1.973s] writing manifest file '../../build/mypypkg/mypypkg.egg-info/SOURCES.txt'
+[1.974s] running build
+[1.974s] running build_py
+[1.974s] copying mypypkg/parameter.py -> /home/shan/ros2_ws/build/mypypkg/build/lib/mypypkg
+[1.977s] running install
+[1.977s] running install_lib
+[1.979s] copying /home/shan/ros2_ws/build/mypypkg/build/lib/mypypkg/parameter.py -> /home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages/mypypkg
+[1.981s] byte-compiling /home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages/mypypkg/parameter.py to parameter.cpython-310.pyc
+[1.983s] running install_data
+[1.983s] running install_egg_info
+[1.989s] removing '/home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages/mypypkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.989s] Copying ../../build/mypypkg/mypypkg.egg-info to /home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages/mypypkg-0.0.0-py3.10.egg-info
+[1.992s] running install_scripts
+[2.036s] Installing cameranode script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.036s] Installing dpclient script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.036s] Installing dpserver script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.037s] Installing hpub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.037s] Installing hsub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.038s] Installing mitclient script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.038s] Installing mtiserver script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.038s] Installing paramexnode script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.039s] Installing ppub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.039s] Installing psub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.039s] Installing testclient script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.040s] Installing testexec script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.040s] Installing testpub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.040s] Installing testserver script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.040s] Installing testsub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.040s] Installing vectorpub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.041s] Installing vectorsub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.042s] writing list of installed files to '/home/shan/ros2_ws/build/mypypkg/install.log'
+[2.089s] Invoked command in '/home/shan/ros2_ws/src/mypypkg' returned '0': PYTHONPATH=/home/shan/ros2_ws/build/mypypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mypypkg build --build-base /home/shan/ros2_ws/build/mypypkg/build install --record /home/shan/ros2_ws/build/mypypkg/install.log --single-version-externally-managed install_data

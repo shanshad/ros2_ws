@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/mypypkg/mypypkg.egg-info
+writing ../../build/mypypkg/mypypkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/mypypkg/mypypkg.egg-info/dependency_links.txt
+writing entry points to ../../build/mypypkg/mypypkg.egg-info/entry_points.txt
+writing requirements to ../../build/mypypkg/mypypkg.egg-info/requires.txt
+writing top-level names to ../../build/mypypkg/mypypkg.egg-info/top_level.txt
+writing manifest file '../../build/mypypkg/mypypkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/mypypkg/mypypkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/mypypkg/mypypkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/shan/ros2_ws/build/mypypkg/build
+creating /home/shan/ros2_ws/build/mypypkg/build/lib
+creating /home/shan/ros2_ws/build/mypypkg/build/lib/mypypkg
+copying mypypkg/__init__.py -> /home/shan/ros2_ws/build/mypypkg/build/lib/mypypkg
+copying mypypkg/test1.py -> /home/shan/ros2_ws/build/mypypkg/build/lib/mypypkg
+running install
+running install_lib
+creating /home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages/mypypkg
+copying /home/shan/ros2_ws/build/mypypkg/build/lib/mypypkg/__init__.py -> /home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages/mypypkg
+copying /home/shan/ros2_ws/build/mypypkg/build/lib/mypypkg/test1.py -> /home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages/mypypkg
+byte-compiling /home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages/mypypkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages/mypypkg/test1.py to test1.cpython-310.pyc
+running install_data
+creating /home/shan/ros2_ws/install/mypypkg/share/ament_index
+creating /home/shan/ros2_ws/install/mypypkg/share/ament_index/resource_index
+creating /home/shan/ros2_ws/install/mypypkg/share/ament_index/resource_index/packages
+copying resource/mypypkg -> /home/shan/ros2_ws/install/mypypkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/shan/ros2_ws/install/mypypkg/share/mypypkg
+running install_egg_info
+Copying ../../build/mypypkg/mypypkg.egg-info to /home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages/mypypkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing testexec script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+writing list of installed files to '/home/shan/ros2_ws/build/mypypkg/install.log'

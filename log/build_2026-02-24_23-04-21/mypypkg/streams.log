@@ -1,0 +1,45 @@
+[1.674s] Invoking command in '/home/shan/ros2_ws/src/mypypkg': PYTHONPATH=/home/shan/ros2_ws/build/mypypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mypypkg build --build-base /home/shan/ros2_ws/build/mypypkg/build install --record /home/shan/ros2_ws/build/mypypkg/install.log --single-version-externally-managed install_data
+[2.209s] running egg_info
+[2.210s] writing ../../build/mypypkg/mypypkg.egg-info/PKG-INFO
+[2.210s] writing dependency_links to ../../build/mypypkg/mypypkg.egg-info/dependency_links.txt
+[2.211s] writing entry points to ../../build/mypypkg/mypypkg.egg-info/entry_points.txt
+[2.211s] writing requirements to ../../build/mypypkg/mypypkg.egg-info/requires.txt
+[2.212s] writing top-level names to ../../build/mypypkg/mypypkg.egg-info/top_level.txt
+[2.216s] reading manifest file '../../build/mypypkg/mypypkg.egg-info/SOURCES.txt'
+[2.218s] writing manifest file '../../build/mypypkg/mypypkg.egg-info/SOURCES.txt'
+[2.219s] running build
+[2.219s] running build_py
+[2.221s] copying mypypkg/turtletest.py -> /home/shan/ros2_ws/build/mypypkg/build/lib/mypypkg
+[2.222s] running install
+[2.223s] running install_lib
+[2.225s] copying /home/shan/ros2_ws/build/mypypkg/build/lib/mypypkg/turtletest.py -> /home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages/mypypkg
+[2.228s] byte-compiling /home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages/mypypkg/turtletest.py to turtletest.cpython-310.pyc
+[2.229s] running install_data
+[2.229s] copying package.xml -> /home/shan/ros2_ws/install/mypypkg/share/mypypkg
+[2.230s] running install_egg_info
+[2.235s] removing '/home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages/mypypkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.236s] Copying ../../build/mypypkg/mypypkg.egg-info to /home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages/mypypkg-0.0.0-py3.10.egg-info
+[2.238s] running install_scripts
+[2.281s] Installing boolnode script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.281s] Installing cameranode script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.282s] Installing dpclient script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.282s] Installing dpserver script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.282s] Installing dpserver2 script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.283s] Installing hpub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.283s] Installing hsub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.283s] Installing mitclient script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.284s] Installing mtiserver script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.284s] Installing paramexnode script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.285s] Installing ppub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.285s] Installing psub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.285s] Installing pub1 script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.285s] Installing sub1 script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.286s] Installing testclient script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.286s] Installing testexec script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.286s] Installing testpub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.286s] Installing testserver script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.287s] Installing testsub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.287s] Installing vectorpub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.287s] Installing vectorsub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[2.288s] writing list of installed files to '/home/shan/ros2_ws/build/mypypkg/install.log'
+[2.332s] Invoked command in '/home/shan/ros2_ws/src/mypypkg' returned '0': PYTHONPATH=/home/shan/ros2_ws/build/mypypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mypypkg build --build-base /home/shan/ros2_ws/build/mypypkg/build install --record /home/shan/ros2_ws/build/mypypkg/install.log --single-version-externally-managed install_data

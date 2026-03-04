@@ -1,0 +1,12 @@
+{
+  "package_name": "custom_interfaces",
+  "non_idl_tuples": [
+    "/home/shan/ros2_ws/src/custom_interfaces:msg/Vector4.msg",
+    "/home/shan/ros2_ws/src/custom_interfaces:msg/Hardwarestatus.msg",
+    "/home/shan/ros2_ws/src/custom_interfaces:msg/Point.msg",
+    "/home/shan/ros2_ws/src/custom_interfaces:msg/Pose.msg",
+    "/home/shan/ros2_ws/src/custom_interfaces:msg/Quaternion.msg",
+    "/home/shan/ros2_ws/src/custom_interfaces:srv/MultiplyTwoInts.srv",
+    "/home/shan/ros2_ws/src/custom_interfaces:srv/Dotproduct.srv"
+  ]
+}

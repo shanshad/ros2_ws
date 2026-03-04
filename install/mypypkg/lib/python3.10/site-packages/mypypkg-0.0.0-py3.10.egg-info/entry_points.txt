@@ -1,0 +1,23 @@
+[console_scripts]
+boolnode = mypypkg.boolnode:main
+cameranode = mypypkg.camerapub:main
+dpclient = mypypkg.customsrvclient2:main
+dpserver = mypypkg.customserver2:main
+dpserver2 = mypypkg.dpservice:main
+hpub = mypypkg.hpub:main
+hsub = mypypkg.hsub:main
+mitclient = mypypkg.customsrvclient:main
+mtiserver = mypypkg.customserver1:main
+paramexnode = mypypkg.parameter:main
+ppub = mypypkg.ppub:main
+psub = mypypkg.psub:main
+pub1 = mypypkg.publisher1:main
+sub1 = mypypkg.subscriber1:main
+testclient = mypypkg.client:main
+testexec = mypypkg.test1:main
+testpub = mypypkg.publisher:main
+testserver = mypypkg.server:main
+testsub = mypypkg.subscriber:main
+vectorpub = mypypkg.vpublisher:main
+vectorsub = mypypkg.vsubscriber:main
+

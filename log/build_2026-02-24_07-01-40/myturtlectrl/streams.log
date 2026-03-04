@@ -1,0 +1,22 @@
+[1.420s] Invoking command in '/home/shan/ros2_ws/src/myturtlectrl': PYTHONPATH=/home/shan/ros2_ws/build/myturtlectrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shan/ros2_ws/install/myturtlectrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/myturtlectrl build --build-base /home/shan/ros2_ws/build/myturtlectrl/build install --record /home/shan/ros2_ws/build/myturtlectrl/install.log --single-version-externally-managed install_data
+[1.951s] running egg_info
+[1.953s] writing ../../build/myturtlectrl/myturtlectrl.egg-info/PKG-INFO
+[1.953s] writing dependency_links to ../../build/myturtlectrl/myturtlectrl.egg-info/dependency_links.txt
+[1.954s] writing entry points to ../../build/myturtlectrl/myturtlectrl.egg-info/entry_points.txt
+[1.954s] writing requirements to ../../build/myturtlectrl/myturtlectrl.egg-info/requires.txt
+[1.954s] writing top-level names to ../../build/myturtlectrl/myturtlectrl.egg-info/top_level.txt
+[1.958s] reading manifest file '../../build/myturtlectrl/myturtlectrl.egg-info/SOURCES.txt'
+[1.960s] writing manifest file '../../build/myturtlectrl/myturtlectrl.egg-info/SOURCES.txt'
+[1.960s] running build
+[1.960s] running build_py
+[1.961s] running install
+[1.962s] running install_lib
+[1.964s] running install_data
+[1.965s] running install_egg_info
+[1.970s] removing '/home/shan/ros2_ws/install/myturtlectrl/lib/python3.10/site-packages/myturtlectrl-0.0.0-py3.10.egg-info' (and everything under it)
+[1.971s] Copying ../../build/myturtlectrl/myturtlectrl.egg-info to /home/shan/ros2_ws/install/myturtlectrl/lib/python3.10/site-packages/myturtlectrl-0.0.0-py3.10.egg-info
+[1.973s] running install_scripts
+[2.016s] Installing turtlecatcher script to /home/shan/ros2_ws/install/myturtlectrl/lib/myturtlectrl
+[2.016s] Installing turtlespawner script to /home/shan/ros2_ws/install/myturtlectrl/lib/myturtlectrl
+[2.017s] writing list of installed files to '/home/shan/ros2_ws/build/myturtlectrl/install.log'
+[2.062s] Invoked command in '/home/shan/ros2_ws/src/myturtlectrl' returned '0': PYTHONPATH=/home/shan/ros2_ws/build/myturtlectrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shan/ros2_ws/install/myturtlectrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/myturtlectrl build --build-base /home/shan/ros2_ws/build/myturtlectrl/build install --record /home/shan/ros2_ws/build/myturtlectrl/install.log --single-version-externally-managed install_data

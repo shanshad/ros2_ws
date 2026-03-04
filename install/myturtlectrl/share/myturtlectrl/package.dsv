@@ -1,0 +1,6 @@
+source;share/myturtlectrl/hook/pythonpath.ps1
+source;share/myturtlectrl/hook/pythonpath.dsv
+source;share/myturtlectrl/hook/pythonpath.sh
+source;share/myturtlectrl/hook/ament_prefix_path.ps1
+source;share/myturtlectrl/hook/ament_prefix_path.dsv
+source;share/myturtlectrl/hook/ament_prefix_path.sh

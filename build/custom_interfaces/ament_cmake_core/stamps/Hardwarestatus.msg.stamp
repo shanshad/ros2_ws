@@ -1,0 +1,3 @@
+bool ledstatus
+float64 temperature
+string debug_msg

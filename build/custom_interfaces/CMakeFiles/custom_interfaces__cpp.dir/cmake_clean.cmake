@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/custom_interfaces__cpp"
+  "rosidl_generator_cpp/custom_interfaces/msg/detail/hardwarestatus__builder.hpp"
+  "rosidl_generator_cpp/custom_interfaces/msg/detail/hardwarestatus__struct.hpp"
+  "rosidl_generator_cpp/custom_interfaces/msg/detail/hardwarestatus__traits.hpp"
+  "rosidl_generator_cpp/custom_interfaces/msg/detail/hardwarestatus__type_support.hpp"
+  "rosidl_generator_cpp/custom_interfaces/msg/detail/point__builder.hpp"
+  "rosidl_generator_cpp/custom_interfaces/msg/detail/point__struct.hpp"
+  "rosidl_generator_cpp/custom_interfaces/msg/detail/point__traits.hpp"
+  "rosidl_generator_cpp/custom_interfaces/msg/detail/point__type_support.hpp"
+  "rosidl_generator_cpp/custom_interfaces/msg/detail/pose__builder.hpp"
+  "rosidl_generator_cpp/custom_interfaces/msg/detail/pose__struct.hpp"
+  "rosidl_generator_cpp/custom_interfaces/msg/detail/pose__traits.hpp"
+  "rosidl_generator_cpp/custom_interfaces/msg/detail/pose__type_support.hpp"
+  "rosidl_generator_cpp/custom_interfaces/msg/detail/quaternion__builder.hpp"
+  "rosidl_generator_cpp/custom_interfaces/msg/detail/quaternion__struct.hpp"
+  "rosidl_generator_cpp/custom_interfaces/msg/detail/quaternion__traits.hpp"
+  "rosidl_generator_cpp/custom_interfaces/msg/detail/quaternion__type_support.hpp"
+  "rosidl_generator_cpp/custom_interfaces/msg/detail/vector4__builder.hpp"
+  "rosidl_generator_cpp/custom_interfaces/msg/detail/vector4__struct.hpp"
+  "rosidl_generator_cpp/custom_interfaces/msg/detail/vector4__traits.hpp"
+  "rosidl_generator_cpp/custom_interfaces/msg/detail/vector4__type_support.hpp"
+  "rosidl_generator_cpp/custom_interfaces/msg/hardwarestatus.hpp"
+  "rosidl_generator_cpp/custom_interfaces/msg/point.hpp"
+  "rosidl_generator_cpp/custom_interfaces/msg/pose.hpp"
+  "rosidl_generator_cpp/custom_interfaces/msg/quaternion.hpp"
+  "rosidl_generator_cpp/custom_interfaces/msg/vector4.hpp"
+  "rosidl_generator_cpp/custom_interfaces/srv/detail/dotproduct__builder.hpp"
+  "rosidl_generator_cpp/custom_interfaces/srv/detail/dotproduct__struct.hpp"
+  "rosidl_generator_cpp/custom_interfaces/srv/detail/dotproduct__traits.hpp"
+  "rosidl_generator_cpp/custom_interfaces/srv/detail/dotproduct__type_support.hpp"
+  "rosidl_generator_cpp/custom_interfaces/srv/detail/multiply_two_ints__builder.hpp"
+  "rosidl_generator_cpp/custom_interfaces/srv/detail/multiply_two_ints__struct.hpp"
+  "rosidl_generator_cpp/custom_interfaces/srv/detail/multiply_two_ints__traits.hpp"
+  "rosidl_generator_cpp/custom_interfaces/srv/detail/multiply_two_ints__type_support.hpp"
+  "rosidl_generator_cpp/custom_interfaces/srv/dotproduct.hpp"
+  "rosidl_generator_cpp/custom_interfaces/srv/multiply_two_ints.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/custom_interfaces__cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

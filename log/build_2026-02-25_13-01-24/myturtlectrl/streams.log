@@ -1,0 +1,29 @@
+[0.448s] Invoking command in '/home/shan/ros2_ws/src/myturtlectrl': CMAKE_PREFIX_PATH=/home/shan/ros2_ws/install/custom_interfaces:/home/shan/ros2_ws/install/my_robot_bringup PYTHONPATH=/home/shan/ros2_ws/build/myturtlectrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shan/ros2_ws/install/myturtlectrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/myturtlectrl build --build-base /home/shan/ros2_ws/build/myturtlectrl/build install --record /home/shan/ros2_ws/build/myturtlectrl/install.log --single-version-externally-managed install_data
+[0.614s] running egg_info
+[0.615s] writing ../../build/myturtlectrl/myturtlectrl.egg-info/PKG-INFO
+[0.617s] writing dependency_links to ../../build/myturtlectrl/myturtlectrl.egg-info/dependency_links.txt
+[0.617s] writing entry points to ../../build/myturtlectrl/myturtlectrl.egg-info/entry_points.txt
+[0.617s] writing requirements to ../../build/myturtlectrl/myturtlectrl.egg-info/requires.txt
+[0.617s] writing top-level names to ../../build/myturtlectrl/myturtlectrl.egg-info/top_level.txt
+[0.618s] reading manifest file '../../build/myturtlectrl/myturtlectrl.egg-info/SOURCES.txt'
+[0.619s] writing manifest file '../../build/myturtlectrl/myturtlectrl.egg-info/SOURCES.txt'
+[0.619s] running build
+[0.619s] running build_py
+[0.619s] copying myturtlectrl/turtlesrvclnt.py -> /home/shan/ros2_ws/build/myturtlectrl/build/lib/myturtlectrl
+[0.619s] copying myturtlectrl/turtlepossub.py -> /home/shan/ros2_ws/build/myturtlectrl/build/lib/myturtlectrl
+[0.619s] running install
+[0.620s] running install_lib
+[0.620s] copying /home/shan/ros2_ws/build/myturtlectrl/build/lib/myturtlectrl/turtlesrvclnt.py -> /home/shan/ros2_ws/install/myturtlectrl/lib/python3.10/site-packages/myturtlectrl
+[0.620s] copying /home/shan/ros2_ws/build/myturtlectrl/build/lib/myturtlectrl/turtlepossub.py -> /home/shan/ros2_ws/install/myturtlectrl/lib/python3.10/site-packages/myturtlectrl
+[0.621s] byte-compiling /home/shan/ros2_ws/install/myturtlectrl/lib/python3.10/site-packages/myturtlectrl/turtlesrvclnt.py to turtlesrvclnt.cpython-310.pyc
+[0.621s] byte-compiling /home/shan/ros2_ws/install/myturtlectrl/lib/python3.10/site-packages/myturtlectrl/turtlepossub.py to turtlepossub.cpython-310.pyc
+[0.621s] running install_data
+[0.621s] copying package.xml -> /home/shan/ros2_ws/install/myturtlectrl/share/myturtlectrl
+[0.622s] running install_egg_info
+[0.623s] removing '/home/shan/ros2_ws/install/myturtlectrl/lib/python3.10/site-packages/myturtlectrl-0.0.0-py3.10.egg-info' (and everything under it)
+[0.623s] Copying ../../build/myturtlectrl/myturtlectrl.egg-info to /home/shan/ros2_ws/install/myturtlectrl/lib/python3.10/site-packages/myturtlectrl-0.0.0-py3.10.egg-info
+[0.624s] running install_scripts
+[0.638s] Installing turtlepubsub script to /home/shan/ros2_ws/install/myturtlectrl/lib/myturtlectrl
+[0.638s] Installing turtlesrvclnt script to /home/shan/ros2_ws/install/myturtlectrl/lib/myturtlectrl
+[0.638s] writing list of installed files to '/home/shan/ros2_ws/build/myturtlectrl/install.log'
+[0.654s] Invoked command in '/home/shan/ros2_ws/src/myturtlectrl' returned '0': CMAKE_PREFIX_PATH=/home/shan/ros2_ws/install/custom_interfaces:/home/shan/ros2_ws/install/my_robot_bringup PYTHONPATH=/home/shan/ros2_ws/build/myturtlectrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shan/ros2_ws/install/myturtlectrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/myturtlectrl build --build-base /home/shan/ros2_ws/build/myturtlectrl/build install --record /home/shan/ros2_ws/build/myturtlectrl/install.log --single-version-externally-managed install_data

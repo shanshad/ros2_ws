@@ -1,0 +1,4 @@
+[console_scripts]
+turtlepubsub = myturtlectrl.turtlepossub:main
+turtlesrvclnt = myturtlectrl.turtlesrvclnt:main
+

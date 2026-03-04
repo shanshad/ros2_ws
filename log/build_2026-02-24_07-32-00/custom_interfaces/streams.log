@@ -1,0 +1,420 @@
+[0.038s] Invoking command in '/home/shan/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shan/ros2_ws/install/myturtlectrl:/home/shan/ros2_ws/install/mypypkg:/opt/ros/humble /usr/bin/cmake --build /home/shan/ros2_ws/build/custom_interfaces -- -j16 -l16
+[0.101s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.395s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.399s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.405s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.477s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.172s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.598s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.156s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.209s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.264s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.264s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.264s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.289s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.418s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.419s] -- Configured cppcheck include dirs: 
+[2.419s] -- Configured cppcheck exclude dirs and/or files: 
+[2.433s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.461s] -- Added test 'lint_cmake' to check CMake code style
+[2.475s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.584s] -- Added test 'uncrustify' to check C / C++ code style
+[2.584s] -- Configured uncrustify additional arguments: 
+[2.598s] -- Added test 'xmllint' to check XML markup files
+[2.602s] -- Configuring done
+[2.699s] -- Generating done
+[2.726s] -- Build files have been written to: /home/shan/ros2_ws/build/custom_interfaces
+[2.787s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.816s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.843s] [  2%] Built target ament_cmake_python_copy_custom_interfaces
+[3.425s] running egg_info
+[3.426s] writing custom_interfaces.egg-info/PKG-INFO
+[3.427s] writing dependency_links to custom_interfaces.egg-info/dependency_links.txt
+[3.427s] writing top-level names to custom_interfaces.egg-info/top_level.txt
+[3.432s] reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[3.434s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[3.493s] [  2%] Built target ament_cmake_python_build_custom_interfaces_egg
+[4.201s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_generator_c[0m
+[4.213s] [  2%] Built target custom_interfaces__cpp
+[4.234s] [  3%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/hardwarestatus__functions.c.o[0m
+[4.236s] [  5%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/pose__functions.c.o[0m
+[4.237s] [  6%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/vector4__functions.c.o[0m
+[4.237s] [  7%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/quaternion__functions.c.o[0m
+[4.239s] [  8%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/point__functions.c.o[0m
+[4.240s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.240s] [ 11%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.243s] [ 13%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/dotproduct__functions.c.o[0m
+[4.243s] [ 13%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/multiply_two_ints__functions.c.o[0m
+[4.244s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.387s] [ 16%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so[0m
+[4.484s] [ 16%] Built target custom_interfaces__rosidl_generator_c
+[4.511s] [ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.511s] [ 18%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.512s] [ 20%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.159s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_cpp[0m
+[5.203s] [ 21%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/vector4__type_support.cpp.o[0m
+[5.204s] [ 22%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/pose__type_support.cpp.o[0m
+[5.204s] [ 24%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/hardwarestatus__type_support.cpp.o[0m
+[5.207s] [ 25%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/point__type_support.cpp.o[0m
+[5.208s] [ 26%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/srv/multiply_two_ints__type_support.cpp.o[0m
+[5.209s] [ 27%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/quaternion__type_support.cpp.o[0m
+[5.209s] [ 29%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/srv/dotproduct__type_support.cpp.o[0m
+[5.402s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_cpp[0m
+[5.452s] [ 30%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/vector4__type_support.cpp.o[0m
+[5.459s] [ 31%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/quaternion__type_support.cpp.o[0m
+[5.464s] [ 32%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/point__type_support.cpp.o[0m
+[5.466s] [ 34%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/hardwarestatus__type_support.cpp.o[0m
+[5.474s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/pose__type_support.cpp.o[0m
+[5.841s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_c[0m
+[5.878s] [ 36%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/vector4__type_support.cpp.o[0m
+[5.960s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[5.964s] [ 37%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/srv/detail/multiply_two_ints__type_support.cpp.o[0m
+[5.968s] [ 39%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/hardwarestatus__type_support.cpp.o[0m
+[6.016s] [ 40%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/vector4__type_support.cpp.o[0m
+[6.022s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/srv/detail/dotproduct__type_support.cpp.o[0m
+[6.032s] [ 43%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/point__type_support.cpp.o[0m
+[6.034s] [ 44%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/hardwarestatus__type_support.cpp.o[0m
+[6.058s] [ 45%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/point__type_support.cpp.o[0m
+[6.059s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_c[0m
+[6.071s] [ 46%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/quaternion__type_support.cpp.o[0m
+[6.072s] [ 48%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/pose__type_support.cpp.o[0m
+[6.086s] [ 49%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so[0m
+[6.094s] [ 50%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/vector4__type_support.c.o[0m
+[6.125s] [ 51%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/hardwarestatus__type_support.c.o[0m
+[6.137s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c[0m
+[6.156s] [ 53%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/srv/multiply_two_ints__type_support.cpp.o[0m
+[6.163s] [ 54%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/point__type_support.c.o[0m
+[6.184s] [ 55%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/vector4__type_support_c.cpp.o[0m
+[6.194s] [ 56%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/hardwarestatus__type_support_c.cpp.o[0m
+[6.230s] [ 56%] Built target custom_interfaces__rosidl_typesupport_cpp
+[6.246s] [ 58%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/srv/dotproduct__type_support.cpp.o[0m
+[6.248s] [ 59%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/point__type_support_c.cpp.o[0m
+[6.255s] [ 60%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/pose__type_support_c.cpp.o[0m
+[6.264s] [ 62%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/pose__type_support.c.o[0m
+[6.338s] [ 63%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so[0m
+[6.377s] [ 64%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/quaternion__type_support.c.o[0m
+[6.401s] [ 65%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/quaternion__type_support_c.cpp.o[0m
+[6.402s] [ 67%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/multiply_two_ints__type_support.c.o[0m
+[6.465s] [ 68%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/dotproduct__type_support.c.o[0m
+[6.466s] [ 69%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/pose__type_support.cpp.o[0m
+[6.476s] [ 69%] Built target custom_interfaces__rosidl_typesupport_c
+[6.496s] [ 70%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/multiply_two_ints__type_support_c.cpp.o[0m
+[6.498s] [ 72%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/multiply_two_ints__type_support.cpp.o[0m
+[6.507s] [ 73%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/quaternion__type_support.cpp.o[0m
+[6.556s] [ 74%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/dotproduct__type_support_c.cpp.o[0m
+[6.598s] [ 75%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[6.684s] [ 75%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[6.705s] [ 77%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/dotproduct__type_support.cpp.o[0m
+[6.913s] [ 78%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[7.006s] [ 78%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[7.121s] [ 79%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[7.212s] [ 79%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[7.234s] [ 81%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.323s] [ 81%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[7.350s] [ 81%] Built target custom_interfaces
+[7.378s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.159s] [ 82%] Built target custom_interfaces__py
+[8.171s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_generator_py[0m
+[8.187s] [ 86%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_point_s.c.o[0m
+[8.187s] [ 86%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_vector4_s.c.o[0m
+[8.187s] [ 86%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/srv/_multiply_two_ints_s.c.o[0m
+[8.188s] [ 87%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_hardwarestatus_s.c.o[0m
+[8.188s] [ 88%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_pose_s.c.o[0m
+[8.189s] [ 91%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/srv/_dotproduct_s.c.o[0m
+[8.189s] [ 91%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_quaternion_s.c.o[0m
+[8.300s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so[0m
+[8.341s] [ 92%] Built target custom_interfaces__rosidl_generator_py
+[8.351s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[8.351s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_c__pyext[0m
+[8.351s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[8.363s] [ 96%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.363s] [ 96%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[8.363s] [ 96%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.447s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.447s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.451s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.478s] [100%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[8.478s] [100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[8.483s] [100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[8.497s] Invoked command in '/home/shan/ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shan/ros2_ws/install/myturtlectrl:/home/shan/ros2_ws/install/mypypkg:/opt/ros/humble /usr/bin/cmake --build /home/shan/ros2_ws/build/custom_interfaces -- -j16 -l16
+[8.509s] Invoking command in '/home/shan/ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shan/ros2_ws/install/myturtlectrl:/home/shan/ros2_ws/install/mypypkg:/opt/ros/humble /usr/bin/cmake --install /home/shan/ros2_ws/build/custom_interfaces
+[8.516s] -- Install configuration: ""
+[8.516s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces
+[8.516s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[8.516s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[8.516s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[8.516s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/multiply_two_ints__type_support.h
+[8.516s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dotproduct__type_support.h
+[8.517s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dotproduct__struct.h
+[8.517s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/multiply_two_ints__struct.h
+[8.517s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/multiply_two_ints__functions.h
+[8.517s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dotproduct__functions.c
+[8.517s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dotproduct__functions.h
+[8.517s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/multiply_two_ints__functions.c
+[8.517s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/multiply_two_ints.h
+[8.517s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/dotproduct.h
+[8.517s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[8.517s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/vector4.h
+[8.517s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[8.518s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/quaternion__struct.h
+[8.518s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/hardwarestatus__type_support.h
+[8.518s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/hardwarestatus__functions.c
+[8.518s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/point__struct.h
+[8.518s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vector4__type_support.h
+[8.518s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/point__functions.c
+[8.518s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/pose__type_support.h
+[8.518s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/hardwarestatus__functions.h
+[8.518s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/point__functions.h
+[8.518s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/quaternion__functions.c
+[8.519s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/quaternion__functions.h
+[8.519s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/pose__functions.h
+[8.519s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/pose__functions.c
+[8.519s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vector4__struct.h
+[8.519s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vector4__functions.h
+[8.519s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/point__type_support.h
+[8.519s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/quaternion__type_support.h
+[8.519s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/hardwarestatus__struct.h
+[8.520s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/pose__struct.h
+[8.520s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vector4__functions.c
+[8.520s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/hardwarestatus.h
+[8.520s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/point.h
+[8.520s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/quaternion.h
+[8.520s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[8.520s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/pose.h
+[8.521s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh
+[8.521s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv
+[8.521s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so
+[8.521s] -- Set runtime path of "/home/shan/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""
+[8.521s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[8.521s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[8.521s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[8.521s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/multiply_two_ints__rosidl_typesupport_fastrtps_c.h
+[8.522s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dotproduct__rosidl_typesupport_fastrtps_c.h
+[8.522s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[8.522s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[8.522s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+[8.522s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/quaternion__rosidl_typesupport_fastrtps_c.h
+[8.522s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/hardwarestatus__rosidl_typesupport_fastrtps_c.h
+[8.522s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/point__rosidl_typesupport_fastrtps_c.h
+[8.522s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vector4__rosidl_typesupport_fastrtps_c.h
+[8.522s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.523s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so
+[8.523s] -- Set runtime path of "/home/shan/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[8.523s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[8.523s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[8.523s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[8.523s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/multiply_two_ints__type_support.c
+[8.523s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dotproduct__rosidl_typesupport_introspection_c.h
+[8.523s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/multiply_two_ints__rosidl_typesupport_introspection_c.h
+[8.523s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dotproduct__type_support.c
+[8.524s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[8.524s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[8.524s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/hardwarestatus__rosidl_typesupport_introspection_c.h
+[8.524s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/point__type_support.c
+[8.524s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/quaternion__type_support.c
+[8.524s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vector4__rosidl_typesupport_introspection_c.h
+[8.524s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vector4__type_support.c
+[8.524s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/hardwarestatus__type_support.c
+[8.524s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/pose__rosidl_typesupport_introspection_c.h
+[8.525s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/quaternion__rosidl_typesupport_introspection_c.h
+[8.525s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/pose__type_support.c
+[8.525s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/point__rosidl_typesupport_introspection_c.h
+[8.525s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.525s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so
+[8.525s] -- Set runtime path of "/home/shan/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[8.526s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so
+[8.526s] -- Set runtime path of "/home/shan/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""
+[8.526s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[8.526s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[8.526s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/multiply_two_ints.hpp
+[8.526s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[8.526s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dotproduct__type_support.hpp
+[8.526s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dotproduct__traits.hpp
+[8.526s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/multiply_two_ints__builder.hpp
+[8.527s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dotproduct__struct.hpp
+[8.527s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dotproduct__builder.hpp
+[8.527s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/multiply_two_ints__struct.hpp
+[8.527s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/multiply_two_ints__type_support.hpp
+[8.527s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/multiply_two_ints__traits.hpp
+[8.527s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/dotproduct.hpp
+[8.527s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[8.527s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/point.hpp
+[8.527s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/hardwarestatus.hpp
+[8.528s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[8.528s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/hardwarestatus__struct.hpp
+[8.528s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/hardwarestatus__builder.hpp
+[8.528s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/quaternion__traits.hpp
+[8.528s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/point__type_support.hpp
+[8.528s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/quaternion__struct.hpp
+[8.528s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vector4__traits.hpp
+[8.528s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/hardwarestatus__traits.hpp
+[8.529s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vector4__builder.hpp
+[8.529s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/point__struct.hpp
+[8.529s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vector4__struct.hpp
+[8.529s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/pose__type_support.hpp
+[8.529s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/pose__builder.hpp
+[8.529s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/quaternion__type_support.hpp
+[8.529s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/hardwarestatus__type_support.hpp
+[8.529s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/pose__struct.hpp
+[8.530s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/quaternion__builder.hpp
+[8.530s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/point__traits.hpp
+[8.530s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vector4__type_support.hpp
+[8.530s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/point__builder.hpp
+[8.530s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/pose__traits.hpp
+[8.530s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/pose.hpp
+[8.530s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/quaternion.hpp
+[8.530s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[8.531s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/vector4.hpp
+[8.531s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[8.531s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[8.531s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[8.531s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/multiply_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[8.531s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dotproduct__rosidl_typesupport_fastrtps_cpp.hpp
+[8.531s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dds_fastrtps
+[8.531s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[8.531s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.531s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[8.531s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp
+[8.531s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/quaternion__rosidl_typesupport_fastrtps_cpp.hpp
+[8.531s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[8.531s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/hardwarestatus__rosidl_typesupport_fastrtps_cpp.hpp
+[8.532s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/dds_fastrtps
+[8.532s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vector4__rosidl_typesupport_fastrtps_cpp.hpp
+[8.532s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[8.532s] -- Set runtime path of "/home/shan/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.532s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[8.533s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[8.533s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[8.533s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/multiply_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[8.533s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dotproduct__rosidl_typesupport_introspection_cpp.hpp
+[8.533s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/multiply_two_ints__type_support.cpp
+[8.533s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dotproduct__type_support.cpp
+[8.533s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[8.533s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[8.533s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/quaternion__type_support.cpp
+[8.534s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vector4__type_support.cpp
+[8.534s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp
+[8.534s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/pose__type_support.cpp
+[8.534s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/hardwarestatus__rosidl_typesupport_introspection_cpp.hpp
+[8.534s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/point__type_support.cpp
+[8.534s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/quaternion__rosidl_typesupport_introspection_cpp.hpp
+[8.534s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/hardwarestatus__type_support.cpp
+[8.534s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[8.534s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vector4__rosidl_typesupport_introspection_cpp.hpp
+[8.535s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so
+[8.535s] -- Set runtime path of "/home/shan/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[8.535s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so
+[8.536s] -- Set runtime path of "/home/shan/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""
+[8.536s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh
+[8.536s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv
+[8.536s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info
+[8.536s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[8.536s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[8.536s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[8.536s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[8.536s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces
+[8.536s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py
+[8.536s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.537s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.537s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[8.537s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv
+[8.537s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py
+[8.537s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_multiply_two_ints_s.c
+[8.537s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_dotproduct.py
+[8.538s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_dotproduct_s.c
+[8.538s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_multiply_two_ints.py
+[8.538s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg
+[8.538s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py
+[8.538s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_hardwarestatus_s.c
+[8.538s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_point.py
+[8.538s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_quaternion.py
+[8.538s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_point_s.c
+[8.539s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_pose.py
+[8.539s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_hardwarestatus.py
+[8.539s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_vector4.py
+[8.539s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_quaternion_s.c
+[8.539s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_vector4_s.c
+[8.539s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_pose_s.c
+[8.539s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.540s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[8.540s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.540s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so
+[8.572s] Listing '/home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...
+[8.572s] Compiling '/home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py'...
+[8.572s] Listing '/home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg'...
+[8.573s] Compiling '/home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py'...
+[8.573s] Compiling '/home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_hardwarestatus.py'...
+[8.573s] Compiling '/home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_point.py'...
+[8.573s] Compiling '/home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_pose.py'...
+[8.573s] Compiling '/home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_quaternion.py'...
+[8.573s] Compiling '/home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_vector4.py'...
+[8.573s] Listing '/home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv'...
+[8.573s] Compiling '/home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py'...
+[8.573s] Compiling '/home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_dotproduct.py'...
+[8.573s] Compiling '/home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_multiply_two_ints.py'...
+[8.576s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.577s] -- Set runtime path of "/home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.577s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.577s] -- Set runtime path of "/home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.578s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.578s] -- Set runtime path of "/home/shan/ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.579s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so
+[8.579s] -- Set runtime path of "/home/shan/ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so" to ""
+[8.579s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/Vector4.idl
+[8.579s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/Hardwarestatus.idl
+[8.579s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/Point.idl
+[8.580s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/Pose.idl
+[8.580s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/Quaternion.idl
+[8.580s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/MultiplyTwoInts.idl
+[8.580s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/Dotproduct.idl
+[8.580s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/Vector4.msg
+[8.580s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/Hardwarestatus.msg
+[8.580s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/Point.msg
+[8.580s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/Pose.msg
+[8.580s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/msg/Quaternion.msg
+[8.580s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/MultiplyTwoInts.srv
+[8.580s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/MultiplyTwoInts_Request.msg
+[8.580s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/MultiplyTwoInts_Response.msg
+[8.580s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/Dotproduct.srv
+[8.580s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/Dotproduct_Request.msg
+[8.580s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/Dotproduct_Response.msg
+[8.580s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+[8.580s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+[8.580s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+[8.580s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+[8.580s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+[8.581s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+[8.581s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+[8.581s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+[8.581s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+[8.581s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+[8.581s] -- Installing: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv
+[8.581s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+[8.581s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake
+[8.581s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[8.581s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[8.581s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.581s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[8.581s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.581s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake
+[8.581s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[8.581s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake
+[8.581s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.582s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.582s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[8.582s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.582s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake
+[8.582s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[8.582s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake
+[8.582s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[8.582s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[8.582s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.583s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[8.583s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[8.583s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.583s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.583s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.583s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+[8.583s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+[8.583s] -- Up-to-date: /home/shan/ros2_ws/install/custom_interfaces/share/custom_interfaces/package.xml
+[8.586s] Invoked command in '/home/shan/ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shan/ros2_ws/install/myturtlectrl:/home/shan/ros2_ws/install/mypypkg:/opt/ros/humble /usr/bin/cmake --install /home/shan/ros2_ws/build/custom_interfaces

@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_interfaces/msg/Pose.msg
+// generated code does not contain a copyright notice
+
+#include "custom_interfaces/msg/Point.idl"
+#include "custom_interfaces/msg/Quaternion.idl"
+
+module custom_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "A representation of pose in free space, composed of position and orientation.")
+    struct Pose {
+      custom_interfaces::msg::Point position;
+
+      custom_interfaces::msg::Quaternion orientation;
+    };
+  };
+};

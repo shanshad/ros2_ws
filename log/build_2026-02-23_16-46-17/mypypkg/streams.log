@@ -1,0 +1,33 @@
+[0.994s] Invoking command in '/home/shan/ros2_ws/src/mypypkg': PYTHONPATH=/home/shan/ros2_ws/build/mypypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mypypkg build --build-base /home/shan/ros2_ws/build/mypypkg/build install --record /home/shan/ros2_ws/build/mypypkg/install.log --single-version-externally-managed install_data
+[1.419s] running egg_info
+[1.420s] writing ../../build/mypypkg/mypypkg.egg-info/PKG-INFO
+[1.423s] writing dependency_links to ../../build/mypypkg/mypypkg.egg-info/dependency_links.txt
+[1.423s] writing entry points to ../../build/mypypkg/mypypkg.egg-info/entry_points.txt
+[1.423s] writing requirements to ../../build/mypypkg/mypypkg.egg-info/requires.txt
+[1.424s] writing top-level names to ../../build/mypypkg/mypypkg.egg-info/top_level.txt
+[1.428s] reading manifest file '../../build/mypypkg/mypypkg.egg-info/SOURCES.txt'
+[1.430s] writing manifest file '../../build/mypypkg/mypypkg.egg-info/SOURCES.txt'
+[1.431s] running build
+[1.431s] running build_py
+[1.431s] copying mypypkg/vpublisher.py -> /home/shan/ros2_ws/build/mypypkg/build/lib/mypypkg
+[1.432s] copying mypypkg/vsubscriber.py -> /home/shan/ros2_ws/build/mypypkg/build/lib/mypypkg
+[1.432s] running install
+[1.433s] running install_lib
+[1.434s] copying /home/shan/ros2_ws/build/mypypkg/build/lib/mypypkg/vpublisher.py -> /home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages/mypypkg
+[1.434s] copying /home/shan/ros2_ws/build/mypypkg/build/lib/mypypkg/vsubscriber.py -> /home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages/mypypkg
+[1.435s] byte-compiling /home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages/mypypkg/vpublisher.py to vpublisher.cpython-310.pyc
+[1.436s] byte-compiling /home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages/mypypkg/vsubscriber.py to vsubscriber.cpython-310.pyc
+[1.436s] running install_data
+[1.436s] running install_egg_info
+[1.439s] removing '/home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages/mypypkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.440s] Copying ../../build/mypypkg/mypypkg.egg-info to /home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages/mypypkg-0.0.0-py3.10.egg-info
+[1.442s] running install_scripts
+[1.475s] Installing testclient script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[1.477s] Installing testexec script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[1.477s] Installing testpub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[1.478s] Installing testserver script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[1.478s] Installing testsub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[1.478s] Installing vectorpub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[1.479s] Installing vectorsub script to /home/shan/ros2_ws/install/mypypkg/lib/mypypkg
+[1.479s] writing list of installed files to '/home/shan/ros2_ws/build/mypypkg/install.log'
+[1.516s] Invoked command in '/home/shan/ros2_ws/src/mypypkg' returned '0': PYTHONPATH=/home/shan/ros2_ws/build/mypypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shan/ros2_ws/install/mypypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mypypkg build --build-base /home/shan/ros2_ws/build/mypypkg/build install --record /home/shan/ros2_ws/build/mypypkg/install.log --single-version-externally-managed install_data
